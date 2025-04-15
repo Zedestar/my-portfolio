@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer components {
+  .shadow-page {
+    box-shadown: ;
+  }
+}

@@ -3,7 +3,7 @@ import React from "react";
 const Cover = ({ coverImage }) => {
   const CoverImageStyle = {
     backgroundImage: `url(${coverImage})`,
-    backgroundSize: "cover",
+    backgroundSize: "fit",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     height: "100%",

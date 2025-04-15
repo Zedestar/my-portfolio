@@ -14,10 +14,7 @@ const backGroundTextures = {
 };
 function App() {
   return (
-    <div
-      style={backGroundTextures}
-      className="h-full w-full flex items-center justify-center overflow-hidden bg-primary"
-    >
+    <div style={backGroundTextures} className="h-full w-full bg-primary">
       <MyBook />
     </div>
   );

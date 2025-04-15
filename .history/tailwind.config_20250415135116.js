@@ -8,6 +8,7 @@ export default {
         primary: "#f98e2b",
         secondary: "#f3f3f3",
       },
+      
     },
   },
   plugins: [],

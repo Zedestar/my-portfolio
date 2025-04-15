@@ -16,7 +16,7 @@ function App() {
   return (
     <div
       style={backGroundTextures}
-      className="h-full w-full flex items-center justify-center overflow-hidden bg-primary"
+      className="h-full w-full flex items-center justify-center bg-primary"
     >
       <MyBook />
     </div>

@@ -1,0 +1,7 @@
+@import "tailwindcss/preflight";
+/* 
+@layer components {
+  .page-shadow {
+    @apply shadow-page;
+  }
+} */

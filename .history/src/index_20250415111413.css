@@ -1,0 +1,11 @@
+/* @tailwind base;
+@tailwind utilities; */
+@tailwind components;
+
+@import "tailwindcss";
+
+@layer components {
+  .page-shadow {
+    @apply shadow-[inset_0_0_8px_rgba(0,0,0,0.6), 12px_12px_14px_rgba(0,0,0,0.9)];
+  }
+}

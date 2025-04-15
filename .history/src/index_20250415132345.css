@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer base {
+}
+
+@layer components {
+  .shadow-page {
+    @apply shadow-page;
+  }
+}

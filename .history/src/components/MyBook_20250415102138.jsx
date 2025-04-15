@@ -6,7 +6,7 @@ import Cover from "./pages/cover/Cover";
 function MyBook() {
   // props
   return (
-    <HTMLFlipBook width={1000} height={1280} showCover="true">
+    <HTMLFlipBook width={800} height={700} showCover="true">
       <Page number={1} title="This is the page number 1">
         <Cover coverImage={coverImage} />
       </Page>
