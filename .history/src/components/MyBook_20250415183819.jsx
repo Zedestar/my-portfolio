@@ -3,20 +3,19 @@ import Page from "./Page";
 import coverImage from "../assets/images/coverPage.jpg";
 import Cover from "./pages/cover/Cover";
 import FirstPage from "./pages/page1/first-page";
-import SecondPage from "./pages/page2/second-page";
 
 function MyBook() {
   // props
   return (
     <HTMLFlipBook width={1000} height={1280} showCover="true">
-      <Page title="This is the page number 1">
+      <Page number={1} title="This is the page number 1">
         <Cover coverImage={coverImage} />
       </Page>
       <Page title="This is the page number 2">
-        <FirstPage number={1} />
+        <FirstPage number={2} />
       </Page>
-      <Page title="This is the page number 3">
-        <SecondPage number={2} />
+      <Page number={3} title="This is the page number 3">
+        <div className="demoPage text-3xl text-white">Page 3</div>
       </Page>
       <Page number={4} title="This is the page number 4">
         <div className="demoPage text-3xl text-white">Page 4</div>

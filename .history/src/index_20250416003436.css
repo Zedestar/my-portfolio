@@ -6,10 +6,7 @@
       12px 12px 14px rgba(0, 0, 0, 0.6);
   }
 
-  .bg-custom-green {
-    background-color: #567d6a;
-  }
-  .text-custom-green {
-    color: #567d6a;
+  .custom-green {
+    color: "#7C9489";
   }
 }
