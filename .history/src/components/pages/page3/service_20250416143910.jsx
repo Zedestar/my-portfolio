@@ -1,7 +1,10 @@
 import React from "react";
 import PageNumber from "../../footer/footer";
+import { AiFillLayout } from "react-icons/ai";
+import { MdSecurity } from "react-icons/md";
+import { FaMobileAlt } from "react-icons/fa";
+import { FaPaintBrush } from "react-icons/fa";
 import ServiceCard from "../../service-card/service-card";
-import ourService from "../../data/service-data";
 
 function ServicePage({ number }) {
   return (

@@ -1,7 +1,6 @@
 import React from "react";
 import PageNumber from "../../footer/footer";
 import ServiceCard from "../../service-card/service-card";
-import ourService from "../../data/service-data";
 
 function ServicePage({ number }) {
   return (
