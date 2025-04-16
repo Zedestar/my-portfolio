@@ -5,7 +5,6 @@ import Cover from "./pages/cover/Cover";
 import FirstPage from "./pages/page1/first-page";
 import SecondPage from "./pages/page2/second-page";
 import ServicePage from "./pages/page3/service";
-import AboutPage from "./pages/page4/about-page";
 
 function MyBook() {
   // props
@@ -23,8 +22,8 @@ function MyBook() {
       <Page>
         <ServicePage number={3} />
       </Page>
-      <Page>
-        <AboutPage number={4} />
+      <Page number={5} title="This is the page number 5">
+        <div className="demoPage text-3xl text-white">Page 5</div>
       </Page>
       <Page number={5} title="This is the page number 5">
         <div className="demoPage text-3xl text-white">Page 5</div>

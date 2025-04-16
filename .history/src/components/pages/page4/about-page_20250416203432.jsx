@@ -1,9 +1,6 @@
 import React from "react";
-import PageNumber from "../../footer/footer";
-import ServiceCard from "../../service-card/service-card";
-import ourService from "../../data/service-data";
 
-function ServicePage({ number }) {
+const AboutPage = ({ number }) => {
   return (
     <div className="w-full h-full flex flex-col justify-between">
       <div className="flex-1">
@@ -15,15 +12,13 @@ function ServicePage({ number }) {
             <p>We bring your ideas to life online.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 m-4">
-            {ourService.map((service, index) => (
-              <ServiceCard service={service} index={index} />
-            ))}
+            <p>this is it</p>
           </div>
         </div>
       </div>
       <PageNumber number={number} />
     </div>
   );
-}
+};
 
-export default ServicePage;
+export default AboutPage;

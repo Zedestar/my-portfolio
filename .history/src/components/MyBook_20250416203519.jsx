@@ -23,8 +23,8 @@ function MyBook() {
       <Page>
         <ServicePage number={3} />
       </Page>
-      <Page>
-        <AboutPage number={4} />
+      <Page number={4}>
+        <AboutPage />
       </Page>
       <Page number={5} title="This is the page number 5">
         <div className="demoPage text-3xl text-white">Page 5</div>
